@@ -61,9 +61,14 @@ img{
 
 .discounts-link{
   display: inline-block;
+  margin-right: 10px;
   width: 120px;
   height: 120px;
   text-decoration: none;
+}
+
+.discounts-link:last-child{
+  margin-right: 0;
 }
 
 /* Logo Styles */
@@ -84,7 +89,7 @@ img{
 
 .discounts-heading span{
   display: block;
-  padding: 10px 17px;
+  padding: 10px 28px;
   margin-bottom: -20px;
   font-weight: 500;
   font-size: 16px;
@@ -127,11 +132,11 @@ img{
   align-items: center;
 }
 
-.discounts{
+.discounts,
+.discounts-inner,
+.bank-discounts{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 680px;
   padding: 19px;
   background-color: #FFFFFF;
   border-radius: 79px;
@@ -139,31 +144,10 @@ img{
 
 .coupon-discounts{
   display: flex;
-  width: 880px;
   margin: 80px 0;
   align-items: center;
-  justify-content: space-between;
 }
 
-.discounts-inner{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 420px;
-  padding: 19px;
-  background-color: #FFFFFF;
-  border-radius: 79px;
+.discounts-inner:not(:last-child){
+  margin-right: 40px;
 }
-
-.bank-discounts{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 690px;
-  padding: 19px;
-  background: #FFFFFF;
-  border-radius: 79px; 
-}
-
-
-
