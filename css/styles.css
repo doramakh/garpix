@@ -37,3 +37,133 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Action Section */
+
+.action-section{
+  padding: 60px 0;
+  margin-top: 60px;
+  background-color: #F2F4F7;
+}
+
+.action-section-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Link Styles */
+
+.discounts-link{
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  text-decoration: none;
+}
+
+/* Logo Styles */
+
+.discounts-logo{
+  width: 120px;
+  height: 120px;
+}
+
+.discounts-heading{
+  position: relative;
+  z-index: 5;
+  display: inline-block;
+  padding: 0 29px;
+  margin: 0;
+  background-color: #fff;
+}
+
+.discounts-heading span{
+  display: block;
+  padding: 10px 17px;
+  margin-bottom: -20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #fff;
+  border-radius: 0 0 40px 40px;
+}
+
+.discounts-heading::before{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, 0);
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: #F2F4F7;
+  border-radius: 50%;
+  content: "";
+}
+
+.discounts-heading::after{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  transform: translate(50%, 0);
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: #F2F4F7;
+  border-radius: 50%;
+  content: "";
+}
+
+.discounts-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discounts{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 680px;
+  padding: 19px;
+  background-color: #FFFFFF;
+  border-radius: 79px;
+}
+
+.coupon-discounts{
+  display: flex;
+  width: 880px;
+  margin: 80px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.discounts-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 420px;
+  padding: 19px;
+  background-color: #FFFFFF;
+  border-radius: 79px;
+}
+
+.bank-discounts{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 690px;
+  padding: 19px;
+  background: #FFFFFF;
+  border-radius: 79px; 
+}
+
+
+
