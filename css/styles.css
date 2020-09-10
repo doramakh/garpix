@@ -177,6 +177,135 @@ img{
 /* Site footer */
 
 .site-footer{
-  padding: 40px 135px;
+  padding: 20px 0;
   background-color: #fff;
 }
+
+.site-footer-content{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+}
+
+/* Copyright info */
+
+.copyright-info{
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+/* Ste Footer Left */
+
+.site-footer-left{
+  display: flex;
+  max-width: 290px;
+  padding-top: 20px;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.strange-number{
+  display: inline-block;
+  margin-bottom: 1px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.site-footer-left-text{
+  margin-bottom: 55px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.footer-sberlogo{
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+/* Ste Footer Right */
+
+.site-footer-right{
+  display: flex;
+  flex-direction: column;
+  max-width: 870px;
+  padding-top: 20px;
+}
+
+.footer-nav-list{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-right: -19px;
+  margin-left: -19px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.footer-nav-item{
+  margin-right: 19px;
+  margin-left: 19px;
+  margin-bottom: 12px;
+}
+
+.footer-nav-link{
+  font-size: 18px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease,
+  opacity 0.3s ease;
+}
+
+.footer-nav-link:hover{
+  color: #00D36D;
+}
+
+.footer-nav-link:active{
+  opacity: 0.5;
+}
+
+.footer-internet{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* margin-bottom: 30px; */
+}
+
+.footer-apps, 
+.footer-social-networks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.footer-apps{
+  margin-right: 50px;
+}
+
+.footer-social-networks{
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.footer-apps img:first-of-type{
+  margin-right: 10px;
+}
+
+.footer-social-networks img{
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
