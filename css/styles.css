@@ -46,8 +46,8 @@ img{
 /* Action Section */
 
 .action-section{
-  padding: 60px 0;
-  margin-top: 60px;
+  padding-top: 120px;
+  padding-bottom: 173px;
   background-color: #F2F4F7;
 }
 
@@ -172,4 +172,11 @@ img{
   line-height: 24px;
   text-decoration: none;
   border-radius: 50%;
+}
+
+/* Site footer */
+
+.site-footer{
+  padding: 40px 135px;
+  background-color: #fff;
 }
